@@ -41,7 +41,4 @@ class Channel:
         with open(f"{name}", "w",     encoding="utf-8") as file:
             json.dump(write_in_json, file, indent=4, ensure_ascii=False)
 
-if __name__ == "__main__":
-    test = Channel("UCMCgOm8GZkHp8zJ6l7_hIuA")
-    print(test.title)
-    test.to_json("test_2.json")
+
