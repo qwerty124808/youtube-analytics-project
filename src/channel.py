@@ -65,8 +65,4 @@ class Channel:
     def __eq__(self, objeckt_2):
         return self.subscribers_count == objeckt_2.subscribers_count
 
-test_1 = Channel("UCMCgOm8GZkHp8zJ6l7_hIuA")
-test_2 = Channel("UC1eFXmJNkjITxPFWTy6RsWg")
-print(test_1 + test_2)
-print(test_1 - test_2)
 
