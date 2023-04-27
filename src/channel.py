@@ -45,7 +45,7 @@ class Channel:
         return f"{self.title} ({self.url})"
 
     def __add__(self, objeckt_2):
-        return self.subscribers_count+ objeckt_2.subscribers_count
+        return self.subscribers_count + objeckt_2.subscribers_count
     
     def __sub__(self, objeckt_2):
         return self.subscribers_count - objeckt_2.subscribers_count
@@ -64,5 +64,3 @@ class Channel:
 
     def __eq__(self, objeckt_2):
         return self.subscribers_count == objeckt_2.subscribers_count
-
-
